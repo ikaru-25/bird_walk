@@ -168,6 +168,9 @@ class _HomePageState extends State<HomePage> {
                 color: Colors.teal[200],
                 margin: const EdgeInsets.all(15),
                 child: ListTile(
+                    leading: CircleAvatar(
+                      backgroundImage: AssetImage("assets/aioiyama.JPG"),
+                    ),
                     title: Text(_fields[index]['name']),
                     subtitle: Text(_fields[index]['description']),
                     trailing: SizedBox(
