@@ -45,8 +45,8 @@ app.*.map.json
 
 #とりあえずgit管理から外す
 /.idea/
-/android/
-/ios/
+# /android/
+# /ios/
 /linux/
 /macos/
 /web/
@@ -54,3 +54,4 @@ app.*.map.json
 /build/
 
 /lib/firebase_options.dart.dist
+/lib/firebase_options.dart
